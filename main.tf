@@ -5,7 +5,7 @@ provider "aws" {
   region = var.region
   access_key  = var.AWS_ACCESS_KEY_ID
   secret_key  = var.AWS_SECRET_ACCESS_KEY
-  allowed_account_ids = [var.AWS_ACOUNT]
+  allowed_account_ids = var.AWS_ACOUNT
 }
 
 data "aws_ami" "ubuntu" {
