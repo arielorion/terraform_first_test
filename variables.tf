@@ -27,3 +27,9 @@ variable "AWS_ACCESS_KEY_ID" {
   type        = string
   default     =""
 }
+
+variable "AWS_ACOUNT" {
+  description = "Acount for deploy in AWS"
+  type        = string
+  default     =""
+}
